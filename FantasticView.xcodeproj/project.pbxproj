@@ -14,6 +14,7 @@
 		B0C340731E427C4D00A68AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C340711E427C4D00A68AE0 /* LaunchScreen.storyboard */; };
 		B0C3407E1E427C4D00A68AE0 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C3407D1E427C4D00A68AE0 /* FantasticViewTests.swift */; };
 		B0C340891E427C4D00A68AE0 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C340881E427C4D00A68AE0 /* FantasticViewUITests.swift */; };
+		B0C340971E427C8000A68AE0 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C340961E427C8000A68AE0 /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B0C340841E427C4D00A68AE0 /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C340881E427C4D00A68AE0 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
 		B0C3408A1E427C4D00A68AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C340961E427C8000A68AE0 /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B0C3406F1E427C4D00A68AE0 /* Assets.xcassets */,
 				B0C340711E427C4D00A68AE0 /* LaunchScreen.storyboard */,
 				B0C340741E427C4D00A68AE0 /* Info.plist */,
+				B0C340961E427C8000A68AE0 /* FantasticView.swift */,
 			);
 			path = FantasticView;
 			sourceTree = "<group>";
@@ -194,7 +197,7 @@
 					B0C340641E427C4D00A68AE0 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = Z894G6Y62M;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					B0C340781E427C4D00A68AE0 = {
 						CreatedOnToolsVersion = 8.2;
@@ -264,6 +267,7 @@
 			files = (
 				B0C3406B1E427C4D00A68AE0 /* ViewController.swift in Sources */,
 				B0C340691E427C4D00A68AE0 /* AppDelegate.swift in Sources */,
+				B0C340971E427C8000A68AE0 /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +422,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.com.orbis.FantasticView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69a3dfbc-0d65-47a3-b027-2f2268a6985e";
+				PROVISIONING_PROFILE_SPECIFIER = "ORB - Wildcard";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,7 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z894G6Y62M;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FantasticView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pe.com.orbis.FantasticView;
